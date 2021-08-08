@@ -1,0 +1,6 @@
+const fs=require("fs")
+// const { dirname } = require("path")
+const path=require("path")
+const oldPath=path.resolve(__dirname,'./lib/button')
+const newPath=path.resolve(__dirname,'./lib/test')
+fs.renameSync(oldPath,newPath)
