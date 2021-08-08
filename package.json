@@ -105,12 +105,12 @@
     "build:bun": "rollup --config build/rollup.config.bundle.js",
     "build:types": "node ./build/gen-type.js",
     "build:theme": "rimraf packages/theme/lib && gulp build --gulpfile packages/theme/gulpfile.js && cp-cli packages/theme/lib lib/theme && rimraf packages/theme/lib",
-    "dev:docs": "vitepress  dev docs",
-    "build:docs": "vitepress  build docs && rimraf dist && gulp build --gulpfile build/copyDistToDocs.js && npm run clear:dist",
+    "dev:docs": "vitepress  dev document",
+    "build:docs": "vitepress  build document && rimraf dist && gulp build --gulpfile build/copyDistToDocs.js && npm run clear:dist",
     "dev:web": "webpack-dev-server --config ./web/webpack.config.js --open",
     "dev:build": "webpack --config ./web/webpack.config.js",
     "clear": "rimraf ./node_modules",
-    "clear:dist":"rimraf docs/.vitepress/dist",
+    "clear:dist":"rimraf document/.vitepress/dist",
     "create":"node ./build/create.component.js"
   },
   "files": [

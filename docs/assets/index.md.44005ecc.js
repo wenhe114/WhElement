@@ -1,0 +1,1 @@
+import{o as t,c as e}from"./app.775af555.js";const a='{"title":"Home","description":"","frontmatter":{"home":true,"mainTitle":"test","actionText":"快速上手 →","actionLink":"/component/"},"relativePath":"index.md","lastUpdated":1628238397515}',n={};n.render=function(a,n,o,i,r,d){return t(),e("div")};export{a as __pageData,n as default};
