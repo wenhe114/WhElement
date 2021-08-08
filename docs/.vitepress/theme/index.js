@@ -7,7 +7,6 @@ export default {
     ...DefaultTheme,
     // ElElement,
   enhanceApp({ app }) {
-    console.log(app);
     app.mixin({
       mounted() {
           import('../../../lib/index.esm').then(function (m) {

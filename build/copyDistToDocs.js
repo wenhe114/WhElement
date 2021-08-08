@@ -5,12 +5,12 @@ const cssmin = require('gulp-cssmin')
 
 function copydist() {
   return src('../docs/.vitepress/dist/**')
-    .pipe(dest('../docs/dist'))
+    .pipe(dest('../dist'))
 }
 
 function copyPubuilc(){
     return src('../docs/.vitepress/public/**')
-    .pipe(dest('../docs/dist'))
+    .pipe(dest('../dist'))
 }
 
 exports.build = series(copydist,copyPubuilc)

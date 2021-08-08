@@ -4,20 +4,20 @@
     // import CustomComponent from "../components/el-button/index"
     // import CustomComponent11 from "../../lib/el-button/index"
     // import CustomComponent from "../../packages/button/index"
-    function randomColor() {//得到随机的颜色值
-        var r = Math.floor(Math.random() * 256);
-        var g = Math.floor(Math.random() * 256);
-        var b = Math.floor(Math.random() * 256);
-        return "rgb(" + r + "," + g + "," + b + ")";
-    }
-    import {ref} from "vue"
-    let refName=ref("vncEl")
-    let background=ref("rgb(40,40,40)")
-    setTimeout(()=>{
+    // function randomColor() {//得到随机的颜色值
+    //     var r = Math.floor(Math.random() * 256);
+    //     var g = Math.floor(Math.random() * 256);
+    //     var b = Math.floor(Math.random() * 256);
+    //     return "rgb(" + r + "," + g + "," + b + ")";
+    // }
+    // import {ref} from "vue"
+    // let refName=ref("vncEl")
+    // let background=ref("rgb(40,40,40)")
+    // setTimeout(()=>{
         
-        refName.value="elel"
-        console.log("refName",refName)
-    },10000)
+    //     refName.value="elel"
+    //     console.log("refName",refName)
+    // },10000)
 
     // setInterval(()=>{
         // background.value=randomColor()
