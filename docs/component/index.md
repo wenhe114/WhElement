@@ -25,7 +25,7 @@
 </script>
 
  <!-- <CustomComponent/> -->
-<wh-novnc style="width:100%;height:500px" :background="background" :refName="refName" :password="'123456'" wsUrl="ws://192.168.200.141:8888/websockify?vm_uuid=2ffc76fa-c177-47d3-9f38-a712c1aec055"/>
+<!-- <wh-novnc style="width:100%;height:500px" :background="background" :refName="refName" :password="'123456'" wsUrl="ws://192.168.200.141:8888/websockify?vm_uuid=2ffc76fa-c177-47d3-9f38-a712c1aec055"/> -->
 
 ## 安装
 <div>npm 的方式安装，它能更好地和 webpack 打包工具配合使用。</div>
