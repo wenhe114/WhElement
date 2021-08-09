@@ -4,8 +4,5 @@
     },
     "novnc":{
         "name":"WhNovnc"
-    },
-    "test":{
-        "name":"WhTest"
     }
 }

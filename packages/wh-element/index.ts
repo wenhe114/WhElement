@@ -3,13 +3,11 @@ import type {App} from "vue"
 
 import button from "../button"
 import novnc from "../novnc"
-import test from "../test"
             
 const components=[
 
     button,
     novnc,
-    test,
 ]
             
 const install=(app:App,opt:any):void=>{
@@ -22,7 +20,6 @@ export {
 
     button,
     novnc,
-    test,
     install
 }
             
