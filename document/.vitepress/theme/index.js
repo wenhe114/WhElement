@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 // import ElElement from "element-plus"
 // import 'element-plus/lib/theme-chalk/index.css';
 // import ELement from "../../../lib/index.esm"
+import "../../../lib/theme/index.css"
 export default {
     ...DefaultTheme,
     // ElElement,

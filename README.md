@@ -1,6 +1,7 @@
 # 目录介绍
     build：脚本目录
-    docs：文档目录
+    docs：组件文档
+    document：文档目录
     lib：打包输出目录
     packages：组件目录
     template：生成基础组件模板
